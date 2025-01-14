@@ -18,4 +18,5 @@ jobs:
       - uses: replexica/replexica@bitbucket
         with:
           api-key: ${{ secrets.REPLEXICA_API_KEY }}
+          pull-request: true
 
