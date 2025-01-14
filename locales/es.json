@@ -1,5 +1,7 @@
 {
-  "title": "Infraestructura de localización con IA para equipos de desarrollo",
+  "title": "Infraestructura de localización con IA para todos, no solo para desarrolladores",
   "description": "Localización automatizada con IA para web y móvil, directamente desde CI/CD.",
-  "use-case": "Producto multilingüe en piloto automático. Realiza localizaciones precisas 100 veces más rápido con IA: desde interfaces de usuario hasta contenido dinámico."
+  "use-case": "Producto multilingüe en piloto automático. Realiza localizaciones precisas 100 veces más rápido con IA: desde interfaces de usuario hasta contenido dinámico.",
+  "faq.0.question": "¿Por qué Replexica es mejor que los sistemas de gestión de traducción?",
+  "faq.0.answer": "Replexica es instantáneo y completamente automatizado. No requiere agencias de traducción para producir traducciones que tengan sentido, eliminando los retrasos y cuellos de botella que tienen los procesos de localización tradicionales."
 }

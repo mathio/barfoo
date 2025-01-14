@@ -1,6 +1,8 @@
 version: 1
 checksums:
   55dc377b5e931bfc64e4add83e35d9ea:
-    title: 4c27c6a33f9dfb797f4258bf83e481d2
+    title: 77739c307646897765b3630f08099944
     description: a8b2eae5f8a10453d85f3fdca2dedf3b
     use-case: f50fddabe11bf3a1fe36509b3c0529ae
+    faq.0.question: 173a238452070eab172c5442ee5c1c8d
+    faq.0.answer: 2bd69aa9885e61b16bd6c51d2f6b4e9c
