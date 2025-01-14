@@ -2,6 +2,6 @@
   "title": "AI localization infrastructure for everyone, not just developers",
   "description": "Automated AI localization for web & mobile, right from CI/CD.",
   "use-case": "Multilingual product, on autopilot. Do accurate localization 100x faster with AI: from user interfaces to dynamic content.",
-  "faq.0.question": "Why is Replexica better than translation management systems?",
-  "faq.0.answer": "Replexica is instant and fully automated. It doesn't require translation agencies to produce translations that make sense, removing delays and bottlenecks that legacy localization processes have."
+  "faq.0.question": "Why is Replexica good?",
+  "faq.0.answer": "Replexica is instant and fully automated."
 }
