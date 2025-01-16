@@ -1,24 +1,28 @@
-# name: Replexica i18n
-# 
-# on:
-#   push:
-#     branches:
-#       - main
-# 
-# permissions:
-#   contents: write
-#   pull-requests: write
-# 
-# jobs:
-#   i18n:
-#     name: Run i18n
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: replexica/replexica@feat/gitlab
-#         env:
-#           GH_TOKEN: ${{ github.token }}
-#         with:
-#           api-key: ${{ secrets.REPLEXICA_API_KEY }}
-#           pull-request: true
-# 
+name: Replexica i18n
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches-ignore:
+      - "dependabot-**"
+
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  i18n:
+    name: Run i18n
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: replexica/replexica@main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          api-key: ${{ secrets.REPLEXICA_API_KEY }}
+          pull-request: false
+
