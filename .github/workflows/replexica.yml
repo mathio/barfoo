@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: replexica/replexica@main
+      - uses: replexica/replexica@action
         env:
           GH_TOKEN: ${{ github.token }}
         with:
