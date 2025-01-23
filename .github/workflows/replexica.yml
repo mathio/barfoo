@@ -17,12 +17,16 @@ jobs:
   i18n:
     name: Run i18n
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./my-app
     steps:
       - uses: actions/checkout@v4
-      - uses: replexica/replexica@configure-git
+      - uses: replexica/replexica@working-dir
         env:
           GH_TOKEN: ${{ github.token }}
         with:
           api-key: ${{ secrets.REPLEXICA_API_KEY }}
           pull-request: false
+          working-directory: ./my-app
 
