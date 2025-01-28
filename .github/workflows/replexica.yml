@@ -1,4 +1,4 @@
-name: Replexica i18n
+name: Lingo.dev i18n
 
 on:
   push:
@@ -22,11 +22,12 @@ jobs:
         working-directory: ./my-app
     steps:
       - uses: actions/checkout@v4
-      - uses: replexica/replexica@main
+      - uses: lingodotdev/lingo.dev@gitlab
         env:
           GH_TOKEN: ${{ github.token }}
         with:
           api-key: ${{ secrets.REPLEXICA_API_KEY }}
-          pull-request: false
+          pull-request: true
+          commit-message: "this is i18n"
           working-directory: ./my-app
 
