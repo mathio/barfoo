@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./my-app
+#        working-directory: ./my-app
     steps:
       - uses: actions/checkout@v4
       - uses: lingodotdev/lingo.dev@gitlab
@@ -29,5 +29,5 @@ jobs:
           api-key: ${{ secrets.REPLEXICA_API_KEY }}
           pull-request: true
           commit-message: "this is i18n"
-          working-directory: ./my-app
+#          working-directory: ./my-app
 

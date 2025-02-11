@@ -11,6 +11,11 @@
       "include": [
         "locales/[locale].json"
       ]
+    },
+    "xcode-xcstrings": {
+      "include": [
+        "ios/Localizable2.xcstrings"
+      ]
     }
   }
 }

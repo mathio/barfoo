@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "i18n": "echo 'node ../lingo.dev/packages/cli/bin/cli.mjs i18n'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
