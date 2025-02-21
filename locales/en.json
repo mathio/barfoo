@@ -1,13 +1,4 @@
 {
-  "ErrorMessage": {
-    "dashboard": {
-      "1001": "Workspace not found.",
-      "1002": "You are not a member of this workspace.",
-      "3001": "This workspace has an active on-premise license and cannot be deleted.",
-      "4001": "There was an error sending a code to this phone number. Please try again or contact our support.",
-      "4002": "We do not support verification of numbers from China yet. Please try again with another number.",
-      "5001": "Your invitation link is invalid.",
-      "5002": "Your invitation is expired, ask your workspace admin to send you a new one."
-    }
-  },
+  "price1": "Pro plan costs $10",
+  "price2": "Team plan costs $1.000"
 }

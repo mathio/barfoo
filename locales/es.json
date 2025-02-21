@@ -1,13 +1,4 @@
 {
-  "ErrorMessage": {
-    "dashboard": {
-      "1001": "No se encontró el espacio de trabajo.",
-      "1002": "No eres miembro de este espacio de trabajo.",
-      "3001": "Este espacio de trabajo tiene una licencia local activa y no se puede eliminar.",
-      "4001": "Hubo un error al enviar el código a este número de teléfono. Por favor, inténtalo de nuevo o contacta con nuestro soporte.",
-      "4002": "Todavía no admitimos la verificación de números de China. Por favor, inténtalo de nuevo con otro número.",
-      "5001": "Tu enlace de invitación no es válido.",
-      "5002": "Tu invitación ha caducado, pide al administrador de tu espacio de trabajo que te envíe una nueva."
-    }
-  }
+  "price1": "El plan Pro cuesta 10 €",
+  "price2": "El plan Team cuesta 1.000 €"
 }
